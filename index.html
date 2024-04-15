@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arunendra's Portfolio</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha384-V/mgpssJ+MUch6ifQ9y2y4N4P1CQ2KFP5/2+B5JoL0bZWdTBw2W1uV0G76L3sTiB" crossorigin="anonymous">
+
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">Arunendra Gautam</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          <li>
+            <a href="https://drive.google.com/file/d/1xvHP1SozrN2noOaxbVBBpRUZ0pDrESMI/view?usp=sharing" class="btn btn-primary">Download CV</a>
+          </li>
+
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.jpg" width="250" height="250" loading="lazy" alt="Arunendra's Photo"
+              class="img-cover">
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>Hello I'm</span>
+              <strong>Arunendra Gautam</strong> Web Developer
+            </h2>
+
+            <!-- <p class="hero-text">
+              Adipisicing elit. Neque nulla voluptatum eos repellat deserunt nesciunt tempore porro totam.
+            </p> -->
+
+            <div class="btn-group">
+              <a href="https://www.linkedin.com/in/arunendra-gautam-a22069208/" class="btn btn-primary black">Linkedin</a>
+              <a href="https://github.com/Arunendragautam" class="btn btn-primary blue">GitHub</a>
+
+              
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+          <figure class="about-banner">
+            <img
+              src="https://camo.githubusercontent.com/7de37139d0b4c1ce40865e799b446c0e963a3dd8fb68d239707237c40604fa3d/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966"
+              width="800" height="652" loading="lazy" alt="Ethan's Photo" class="abs-img img-cover">
+          </figure>
+
+          <div class="about-content">
+            <p class="section-subtitle">I'm a Developer</p>
+            <h2 class="h2 section-title">I Develop Applications that Help People</h2>
+            <p class="section-text">
+              Arunendra Gautam, a BTech Computer Science student, excels in web development. With a keen eye for design
+              and coding expertise, he crafts dynamic, user-friendly websites.
+            </p>
+            <p class="section-text">
+
+              Passionate about innovation, he delivers impactful online experiences by combining technical prowess with
+              creativity. Arunendra's dedication ensures projects are not just functional but also cutting-edge and
+              impactful.
+            </p>
+            <div style="margin-top: 20px;"> <!-- Added spacing above the button -->
+              <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">Portfolio</p>
+
+          <h2 class="h2 section-title">My Amazing Works</h2>
+
+          <p class="section-text">
+            Explore My Diverse Portfolio of Creative Projects
+          </p>
+
+          <ul class="portfolio-list">
+
+            <li>
+              <a href="https://arunendragautam.github.io/Project-1-Music-Player/" class="portfolio-card"
+                style="background-image: url('./assets/images/portfolio-1.png')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Music Player</p>
+
+                  <h3 class="h3 card-title">Web Application for Music Player</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://arunendragautam.github.io/Project-4-Weather-App/" class="portfolio-card"
+                style="background-image: url('./assets/images/portfolio-2.png')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Weather App</p>
+
+                  <h3 class="h3 card-title"> Your Ultimate Weather Guide</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://arunendragautam.github.io/Project-2-TODOLIST/" class="portfolio-card"
+                style="background-image: url('./assets/images/portfolio-3.png')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">To-Do List</p>
+
+                  <h3 class="h3 card-title"> Your Personal Task Tracker</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+
+
+                </div>
+              </a>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">My Skills</p>
+
+          <h2 class="h2 section-title">I Develop Skills Regularly</h2>
+
+          <p class="section-text">
+            Overview of My Skills and Proficiencies Across a Wide Spectrum of Technologies, Tools, and Methodologies.
+          </p>
+
+          <ul class="skills-list">
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class=" skills-title">HTML</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="--percentage: 95%;"></div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class=" skills-title">CSS</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="--percentage: 95%;"></div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">JavaScript</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="--percentage: 75%;"></div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 90%">
+                <h3 class="skills-title">Java</h3>
+
+                <data class="skills-data" value="90">90%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="--percentage: 90%;"></div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 70%">
+                <h3 class="skills-title">MySql</h3>
+
+                <data class="skills-data" value="70">70%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="--percentage: 70%;"></div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 80%">
+                <h3 class="skills-title">MongoDB</h3>
+
+                <data class="skills-data" value="80">80%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="--percentage: 85%;"></div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">Express.js</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="--percentage: 75%;"></div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">React.js</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="--percentage: 75%;"></div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">Node.js</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="--percentage: 75%;"></div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">Git/GitHub</h3>
+
+                <data class="skills-data" value="75">90%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="--percentage: 75%;"></div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">Bootstrap</h3>
+
+                <data class="skills-data" value="75">60%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="--percentage: 75%;"></div>
+
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">Tailwind CSS</h3>
+
+                <data class="skills-data" value="75">90%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="--percentage: 75%;"></div>
+
+              </div>
+            </li>
+
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <p class="card-subtitle">Don't be shy</p>
+
+            <h2 class="h2 section-title">Drop Me a Line</h2>
+
+            <div class="wrapper">
+
+              <ul class="contact-list">
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Address</h3>
+
+                    <address class="contact-item-link">
+                      Adhartal, Jabalpur, M.P 482004
+                    </address>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="mail"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Email</h3>
+
+                    <a href="mailto:arunendragautam9@gmail.com" class="contact-item-link">arunendragautam9@gmail.com</a>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="call"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Phone</h3>
+
+                    <a href="tel:+919630471347" class="contact-item-link">+91 96304 71347</a>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+        <li>
+          <a href="https://github.com/Arunendragautam" target="_blank">
+            <img src="https://logodix.com/logo/1205168.png" alt="GitHub">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/arunendragautam_/" target="_blank">
+            <img src="https://www.pngplay.com/wp-content/uploads/5/Instagram-Logo-Silhouette-PNG.png" alt="Instagram">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/arunendra-gautam-a22069208/" target="_blank">
+            <img
+              src="https://th.bing.com/th/id/R.eb68b87815aaaaba6621aa98d2e38bf5?rik=dlxhbnYpsgIL4A&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_24845.png&ehk=7L0l%2bl%2bMYbWa7hmGjFf%2b%2f7IEDbPLQku663OM4xHk018%3d&risl=&pid=ImgRaw&r=0"
+              alt="LinkedIn">
+          </a>
+        </li>
+        <li>
+          <a href="mailto:arunendragautam9@gmail.com">
+            <img
+              src="https://th.bing.com/th/id/R.f54e3578afef4f3120724313b6207b78?rik=SrHzmad4BNuzjg&riu=http%3a%2f%2fwww.newdesignfile.com%2fpostpic%2f2009%2f11%2fwhite-email-icon-transparent_249395.png&ehk=l89VTQ3nQSPzERuKzyGrzeF1Gr5lpuphZntDMzsnjYc%3d&risl=&pid=ImgRaw&r=0"
+              alt="Email">
+          </a>
+        </li>
+      </ul>
+
+
+
+      <p class="copyright">
+        &copy; 2024 Arunendra Gautam All Rights Reseverd
+      </p>
+
+
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
