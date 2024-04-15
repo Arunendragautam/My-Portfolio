@@ -895,4 +895,137 @@ body {
   
 }
 
+
+@media (max-width: 400px) {
+
+  /* Define styles for devices up to 400px width */
+
+  /* CUSTOM PROPERTY */
+
+  :root {
+
+    /* typography */
+
+    --fs-1: 2.8rem;
+    --fs-2: 2.4rem;
+    --fs-3: 2rem;
+    --fs-4: 1.8rem;
+    --fs-5: 1.6rem;
+    --fs-6: 1.2rem;
+
+    /* spacing */
+
+    --section-padding: 40px;
+
+  }
+
+  /* HEADER */
+
+  .header {
+    height: 50px;
+    padding-block: 10px;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  .nav-toggle-btn {
+    font-size: 2rem;
+  }
+
+  .navbar {
+    top: 50px;
+  }
+
+  .navbar-list {
+    flex-direction: column;
+    gap: 15px;
+    padding-block: 20px;
+  }
+
+  .navbar .btn {
+    margin-block-start: 0;
+    --padding: 7px 20px;
+  }
+
+  /* HERO */
+
+  .hero-title span {
+    font-size: 2.2rem;
+  }
+
+  .hero-title {
+    --fs-5: 1.8rem;
+    margin-block-end: 20px;
+  }
+
+  .hero-text {
+    margin-block-end: 20px;
+    font-size: var(--fs-4);
+  }
+
+  /* ABOUT */
+
+  .about .container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .abs-img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* PORTFOLIO */
+
+  .portfolio-card {
+    padding: 80px 20px;
+  }
+
+  /* CONTACT */
+
+  .contact-card {
+    padding: 40px 20px;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    padding-block: 40px;
+  }
+
+  .footer-list>li:not(:last-child) {
+    margin-inline-end: 20px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  /* Move hero content below hero banner */
+  .hero .container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content {
+    text-align: center;
+    margin-top: 20px; /* Add some space between hero banner and content */
+  }
+
+  .btn-group {
+    justify-content: center; /* Center the buttons */
+  }
+  
+}
+
+@media (max-width: 400px) {
+  /* Reduce hero banner size */
+  .hero-banner img {
+    width: 250px; /* Decrease the width */
+    height: 250px; /* Decrease the height */
+  }
+}
+
+
+
 /* End of Media Query */
