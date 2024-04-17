@@ -369,13 +369,7 @@ body {
   width: 350px; /* Increase the width */
   height: 350px; /* Increase the height */
   object-fit: cover; /* Maintain aspect ratio and cover container */
-  transition: transform 0.3s ease; /* Add transition for smooth animation */
 }
-
-.hero-banner:hover img {
-  transform: scale(1.10); /* Scale the image up by 5% on hover */
-}
-
 
 .hero-content {
   text-align: center;
